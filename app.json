@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Self-Blog",
+    "slug": "rn-self-posts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rn-icon.png",
+    "splash": {
+      "image": "./assets/rn-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#242832"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aleksson.app-self-blog",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#242832"
+      },
+      "package": "com.aleksson.app_self_blog",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
